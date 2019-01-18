@@ -1,0 +1,19 @@
+<view class='main' style=' background: linear-gradient(40deg,{{color1}},{{color2}},{{color3}});'>
+  <view class='YTD'>
+    <view class='left' bindtap='lastMonth'>
+      <image src='/imgs/left.png'></image>
+    </view>
+    <view class='right' bindtap='nextMonth'>
+      <image src='/imgs/right.png'></image>
+    </view>
+    <view class='YEAR_MONTH'>
+      <text style='color:{{C_1}}'>{{Year}}</text>
+      <text style='color:{{C_2}}'>年</text>
+      <text style='color:{{C_3}}'>{{Month}}</text>
+      <text style='color:{{C_4}}'>月</text>
+    </view>
+  </view>
+  <view class='Data'>
+    <view class='Day' wx:for='{{day}}' wx:key='gg' data-YTD='{{item.YTD}}' bindtap='selectDate'>{{item.day}}</view>
+  </view>
+</view>

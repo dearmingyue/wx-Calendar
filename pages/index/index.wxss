@@ -1,0 +1,57 @@
+page{
+  margin: 0;
+  padding: 0;
+}
+.main{
+   margin: 0;
+  padding: 0;
+  /* padding:40rpx; */
+  box-shadow:5px 8rpx 20rpx 8rpx rgba(230,238,249,0.7);
+  border-radius:16rpx;
+  opacity: .6;
+  overflow: hidden;
+}
+.YTD{
+  text-align: center;
+}
+.YEAR_MONTH{
+  margin-top: 40rpx;
+  color: white;
+  font-weight: 600;
+  font-size: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom:4rpx solid #cccc;
+}
+.left{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  margin-top: -10rpx;
+}
+.left>image{
+  width: 100%;
+  height: 100%;
+}
+.right{
+  width: 80rpx;
+  height: 80rpx;
+  float: right;
+  margin-top: -10rpx;
+}
+.right>image{
+  width: 100%;
+  height: 100%;
+}
+.Data{
+  padding: 30rpx 20rpx;
+}
+.Day{
+  font-size: 30rpx;
+  display: inline-block;
+  margin-left: 50rpx;
+  height: 60rpx;
+  width: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: black;
+} 
